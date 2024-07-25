@@ -1,11 +1,11 @@
-import './App.css'
+import NavBar from './components/navbar'
 
-function App() {
+const App = () => {
 
   return (
-    <>
-      <h1>hello world</h1>
-    </> 
+      <div>
+        <NavBar />
+      </div>
   )
 }
 
